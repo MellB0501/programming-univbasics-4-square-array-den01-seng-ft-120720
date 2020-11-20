@@ -1,6 +1,6 @@
 def square_array(numbers)
   counter = 0
-  sqr_numbers=[]
+  square_numbers=[]
   while numbers[counter] do
     sqr_numbers<<numbers[counter]*numbers[counter]
     counter += 1
